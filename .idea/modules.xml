@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GomdoLightNotificationProvider.iml" filepath="$PROJECT_DIR$/GomdoLightNotificationProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GLShellInteractivity.iml" filepath="$PROJECT_DIR$/GLShellInteractivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
