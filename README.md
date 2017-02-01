@@ -32,14 +32,18 @@ am broadcast -a gom.dolight.provider.shellinteractivity.Toast -e message "1$VAR_
 ```
 ---
 ### Network Connectivity Check
-#### First run:
+#### Issue the following command to generate/update/refresh connection status indicators:
 ```
 am broadcast -a gom.dolight.provider.shellinteractivity.ConnectivityCheck -n gom.dolight.provider.shellinteractivity/.NetworkReceiver
 ```
-#### This will generate the following files:
-* If connected via Wi-Fi: ```/data/data/gom.dolight.provider.shellinteractivity/connected_wifi```
-* If connected via data network: ```/data/data/gom.dolight.provider.shellinteractivity/connected_data```
-- If no connection, No file will be generated and any existing indicator will be deleted
+#### Generated indicator files (if the device is connected):
+* On Wi-Fi: ```/data/data/gom.dolight.provider.shellinteractivity/connected_wifi```
+* On data network: ```/data/data/gom.dolight.provider.shellinteractivity/connected_data```
+
+#### If no connection or the connection changes:
+* If no connection, No file will be generated and any existing indicator will be deleted
+* Any indicator for inactive connection type will be deleted each time the above command is executed
+* No automatic refresh. If you want automatic refresh add ```<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />``` to the intent-filter.
 
 #### Now check for these files:
 
