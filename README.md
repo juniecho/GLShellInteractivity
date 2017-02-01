@@ -40,6 +40,7 @@ am broadcast -a gom.dolight.provider.shellinteractivity.ConnectivityCheck -n gom
 * If connected via Wi-Fi: ```/data/data/gom.dolight.provider.shellinteractivity/connected_wifi```
 * If connected via data network: ```/data/data/gom.dolight.provider.shellinteractivity/connected_data```
 - If no connection, No file will be generated and any existing indicator will be deleted
+
 #### Now check for these files
 
 ```
