@@ -8,7 +8,8 @@ This app allows an Android custom firmware developer to
 
 from their shell scripts.
 
-
+## Play Store Link
+[Download this app from Google Play Store](https://play.google.com/store/apps/details?id=gom.dolight.provider.shellinteractivity)
 
 ## Usage
 
