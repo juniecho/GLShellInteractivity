@@ -1,10 +1,13 @@
 # GomdoLight Shell Interactivity Provider
 
+## Introduction
+
 This app allows an Android custom firmware developer to 
   - Display toast popups and notifications
   - Find out how the device is connected to the Internet (data network or Wi-Fi, or no connection)
 
 from their shell scripts.
+
 
 
 ## Usage
@@ -57,7 +60,10 @@ else
 fi
 ```
 
+## Open Source Usage
+
+* NaraePreference: https://github.com/PyxisDev/NaraePreference
 
 ## License
 
-MIT
+[MIT](https://github.com/juniecho/GLShellInteractivity/blob/master/LICENSE.md)
